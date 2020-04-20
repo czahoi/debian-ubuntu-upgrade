@@ -104,8 +104,6 @@ function changesource() {
 }
 
 function distro_upgrade() {
-    export DEBIAN_FRONTEND=noninteractive
-    export APT_LISTCHANGES_FRONTEND=none
     starttime=$(date +%s)
 
     # apt-get -f install
